@@ -39,7 +39,7 @@ def count_comments(URL):
 
 def main():
     URL1 = [
-    'https://www.reddit.com/r/flicks/comments/uex2hv/lets_talk_about_everything_everywhere_all_at_once/',
+        'https://www.reddit.com/r/flicks/comments/uex2hv/lets_talk_about_everything_everywhere_all_at_once/',
     ]
 
     URL2 = [
