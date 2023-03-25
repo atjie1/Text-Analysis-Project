@@ -38,7 +38,7 @@ Since there were emojis in the comments of the reddit, I had chosen to extract t
 
 1. Results
 
-2) **The Sentiment Pie Charts**
+1) **The Sentiment Pie Charts**
 The first pie chart represents the sentiment of the first Reddit post (before the Oscars):
 
 The second pie chart represents the sentiment of the second Reddit post (after the Oscars):
@@ -50,11 +50,11 @@ It can be observed that from this small sample of data that there was an increas
 
 The IMDb reviews sentiment best represents the overall public's opinion as this has the largest sample size of reviews. In this, we can see that there is more positive sentiment compared to the Reddit sentiment. While there is positive sentiment, there is still a good amount of negative sentiment at 9.4%. We can conclude from this that the Oscars does not reflect the public's sentiment if the users reviews are accurately representative of the public's opinion.
 
-1) Subtract Function and Words that are Exclusive to each Reddit Post
+2) **Subtract Function and Words that are Exclusive to each Reddit Post**
    
 When using the subtraction function to find words that are in each reddit post but not the other post, it was interesting to find that each post has exactly 306 words that are exclusive to their own comments.
 
-CODE from LINES 151-160:
+**CODE from LINES 151-160:**
     def subtract(d1, d2):
     """
     Returns a dictionary with all keys that appear in d1 but not d2.
@@ -72,11 +72,11 @@ Finding the top frequency and top 50 words in each dataset was also integral in 
 
 1. Reflection
 
-Challenges:
+**Challenges:**
 
 It was first very difficult to open the comments of the Reddit posts, extract emojis (when the emoji module has been updated and no longer uses the same functions as slack comments recommend), and to fix the relentless error (TypeError: write() argument must be str, not bytes) when pickling the data. By the end of the project, I was able to complete all the analysis in my testing plan which answers my objective in trying to understand the sentiment and if there was a change in sentiment, but there are many ways that I feel that my project can be improved upon.
 
-Improvements:
+**Improvements:**
 
 Many more Reddit posts on the movie exist besides the two that I chose that could help to capture a more complete view of public sentiment. With a larger sample size of comments before the Oscars and comments after the Oscars, a more accurate sentiment analysis can be conducted to represent a more accurate sentiment from the public. 
 
@@ -84,7 +84,7 @@ There may also possibly be comments on the post posted before the Oscars that oc
 
 The last largest improvement that I would make to this analysis would be to find access to the IMDb critic reviews and do a sentiment analysis that would compare to the sentiment of the IMDb user reviews. A comparison between the critic and the user review sentiment would also be interesting to examine and make a conclusion about the Oscar's consideration of public input rather than solely critic review. 
 
-Learnings + Future Applications:
+**Learnings + Future Applications:**
 
 Quiz 4 on lists, dictionaries, and tuples really helped me with the skilled needed in this project to transfer between dictionaries and lists. Through this project, I was able apply my learnings on APIs and dictionaries to the reviews and comments on this movie, a real world application. ChatGPT was able to help during moments where I received errors and could not decipher the source of the errors such as when extracting emojis or pickling the data using bytes. 
 
