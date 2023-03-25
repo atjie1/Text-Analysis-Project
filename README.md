@@ -10,7 +10,7 @@ The second reddit post called **"Not Getting the Hype for Everything Everywhere 
 
 The techniques that this project focuses on were 
 1) finding the top 50 words, and 
-1) natural language processing Vader sentimentality score
+2) natural language processing Vader sentimentality score
 The sentimentality scores for each reddit posts' comments and the IMDb user reviews summarizes each of medium's sentiment. 
 
 While the movie "Everything Everywhere at Once" received many critic awards, the outcome of the Oscars was **controversal**, whereas public opinion greatly contrasted positive critic reviews as seen by the 7.9/10 IMDb user review score. In this text analysis project, my goal was to better understand the movie's **sentiment through sentiment analysis** on IMDb and use the two separate reddit APIs to see **if sentiment changed drastically before and after the Oscars**. The usage of the top 50 words was to test **what words best captured each source's opinion**.
@@ -34,7 +34,6 @@ After applying the pie_chart function to the sentiments that were calculated, ba
 One specific challenge that I faced was when I was importing matplotlib. Even after installing it, I had struggled to import it. For a couple of hours, I was reading on how to re-download it and other ways to implement it. I even asked ChatGPT to help identify the issue. One solution suggested was to download another package on my terminal called "pipdetree" that would be able to tell if there were any conflicting packages. I ran this and it came up with no conflicts with the matplotlab. Ultimately, by uninstalling and reinstalling matplotlab, was I able to fix this problem, but the route to fixing it was quite long and relentless!
 
 <img width="858" alt="pipdetree" src="https://user-images.githubusercontent.com/122930813/227690120-082126bb-dede-4345-bb88-4be21b863cab.PNG">
-
 
 **Emojis**
 Since there were emojis in the comments of the reddit, I had chosen to extract these emojis when cleaning the data. This was a decision that complicated the process, but I was able to learn how to extract emojis from data! With the help of ChatGPT and Slack, I was able to find that Slack comments were outdated and navigated the docstring to find a new method to find an emoji library. ChatGPT gave me complicated alternative that helped me develop a further understanding, but I did not implement these methods.
