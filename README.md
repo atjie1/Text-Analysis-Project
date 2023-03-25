@@ -33,17 +33,23 @@ After applying the pie_chart function to the sentiments that were calculated, ba
 **Bumps in the Road:**
 One specific challenge that I faced was when I was importing matplotlib. Even after installing it, I had struggled to import it. For a couple of hours, I was reading on how to re-download it and other ways to implement it. I even asked ChatGPT to help identify the issue. One solution suggested was to download another package on my terminal called "pipdetree" that would be able to tell if there were any conflicting packages. I ran this and it came up with no conflicts with the matplotlab. Ultimately, by uninstalling and reinstalling matplotlab, was I able to fix this problem, but the route to fixing it was quite long and relentless!
 
+<img width="858" alt="pipdetree" src="https://user-images.githubusercontent.com/122930813/227690120-082126bb-dede-4345-bb88-4be21b863cab.PNG">
+
+
 **Emojis**
-Since there were emojis in the comments of the reddit, I had chosen to extract these emojis when cleaning the data. This was a decision that complicated the process, but I was able to learn how to extract emojis from data!
+Since there were emojis in the comments of the reddit, I had chosen to extract these emojis when cleaning the data. This was a decision that complicated the process, but I was able to learn how to extract emojis from data! With the help of ChatGPT and Slack, I was able to find that Slack comments were outdated and navigated the docstring to find a new method to find an emoji library. ChatGPT gave me complicated alternative that helped me develop a further understanding, but I did not implement these methods.
 
 1. Results
 
 1) **The Sentiment Pie Charts**
 The first pie chart represents the sentiment of the first Reddit post (before the Oscars):
-
+ ![Figure_1](https://user-images.githubusercontent.com/122930813/227690030-29bac339-d897-4567-b04c-79320ea215ca.png)
+ 
 The second pie chart represents the sentiment of the second Reddit post (after the Oscars):
+![Figure_2](https://user-images.githubusercontent.com/122930813/227690108-3fb8a06e-c84c-41a4-b112-a1fb321ea311.png)
 
 The third pie chart respresents the sentiment of the IMDb reviews:
+![Figure_3](https://user-images.githubusercontent.com/122930813/227690115-f60b8c5e-a3a0-485b-a071-d34e1dbcf00d.png)
 
 **Conclusions:**
 It can be observed that from this small sample of data that there was an increase in the negative sentiment by 4.3% and a decrease in positive sentiment by 0.2%. Therefore, as we assume that the data is representative of the public's opinion (even though the scale is not large enough), there was an increase in negative sentiment while positive sentiment stayed nearly the same. 
